@@ -10,7 +10,7 @@ using estudo_c_.Data;
 
 namespace estudo_c_.Migrations
 {
-    [DbContext(typeof(FilmContext))]
+    [DbContext(typeof(AppDbContext))]
     [Migration("20220914115824_criandoTabelaDeFilme")]
     partial class criandoTabelaDeFilme
     {

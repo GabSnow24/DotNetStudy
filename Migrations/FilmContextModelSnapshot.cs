@@ -5,11 +5,12 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using estudo_c_.Data;
 
+
 #nullable disable
 
 namespace estudo_c_.Migrations
 {
-    [DbContext(typeof(FilmContext))]
+    [DbContext(typeof(AppDbContext))]
     partial class FilmContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
